@@ -1,6 +1,7 @@
 import { NegociacaoController } from './controllers/NegociacaoController.js';
 import { Negociacao } from './domain/index.js';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/js/modal';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
 const controller = new NegociacaoController();
